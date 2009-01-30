@@ -1,0 +1,29 @@
+ClassBasedLogger
+================
+
+A simple plugin to produce a custom log file for an ActiveRecord class.
+
+Example
+=======
+
+	class Email
+		has_own_logger
+	end
+
+To use the logger
+
+	email = Email.create
+	email.log("sending")
+	
+or log with the class
+
+	Email.class_logger("connecting to server")
+
+
+To specify the directory to store the log files in use
+
+	class Email
+		has_own_logger :in => 'log/emails'
+	end
+
+Copyright (c) 2009 Erik Andrejko, released under the MIT license
