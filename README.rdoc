@@ -1,15 +1,15 @@
-ClassBasedLogger
-================
+= ClassBasedLogger
+
 
 A simple plugin to produce a custom log file for an ActiveRecord class.
 
-Installation
-============
+== Installation
+
 
 ./script/plugin install git://github.com/eandrejko/class_logger.git
 
-Example
-=======
+== Example
+
 
 	class Email
 		has_own_logger
