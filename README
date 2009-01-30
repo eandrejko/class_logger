@@ -3,6 +3,11 @@ ClassBasedLogger
 
 A simple plugin to produce a custom log file for an ActiveRecord class.
 
+Installation
+============
+
+./script/plugin install git://github.com/eandrejko/class_logger.git
+
 Example
 =======
 
